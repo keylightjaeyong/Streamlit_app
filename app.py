@@ -286,7 +286,7 @@ class VirtualAccount:
 # ----------------------
 # 화면 구성
 # ----------------------
-st.set_page_config(page_title="자동매매 시스템", layout="centered")
+st.set_page_config(page_title="자동매매 시스템", layout="centered", page_icon="💰")
 
 # 데이터베이스 초기화
 init_db()
@@ -296,6 +296,15 @@ if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 if 'username' not in st.session_state:
     st.session_state.username = None
+
+# 자동 새로고침 간격 설정 (5분)
+if 'last_refresh' not in st.session_state:
+    st.session_state.last_refresh = datetime.now()
+
+# 5분마다 자동 새로고침
+if (datetime.now() - st.session_state.last_refresh).total_seconds() > 300:
+    st.session_state.last_refresh = datetime.now()
+    st.experimental_rerun()
 
 # 로그인 상태가 아닐 경우 로그인/회원가입 화면 표시
 if not st.session_state.logged_in:
