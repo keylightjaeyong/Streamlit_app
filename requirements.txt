@@ -1,6 +1,6 @@
-streamlit==1.22.0
-pandas==1.3.5
-numpy==1.21.6
+streamlit==1.19.0
+pandas==1.2.4
+numpy==1.19.5
 finance-datareader==0.9.50
 pyupbit==0.2.33
 ccxt==2.9.0
