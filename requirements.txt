@@ -5,4 +5,5 @@ finance-datareader==0.9.50
 pyupbit==0.2.33
 ccxt==2.9.0
 streamlit-autorefresh==0.1.0
-setuptools>=65.5.1 
+setuptools>=65.5.1
+wheel>=0.37.1 
