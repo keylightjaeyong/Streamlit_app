@@ -10,4 +10,5 @@ python-dateutil==2.8.2
 pytz==2024.1
 six==1.16.0
 setuptools_scm==8.0.0
-Cython==3.0.6 
+Cython==3.0.6
+gunicorn==21.2.0 
