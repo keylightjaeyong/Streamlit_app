@@ -1,7 +1,7 @@
-streamlit==1.32.0
-pandas==2.2.0
-numpy==1.26.4
-finance-datareader==0.9.94
-pyupbit==0.2.33
-ccxt==4.2.15
-streamlit-autorefresh==0.1.0 
+streamlit>=1.32.0
+pandas>=2.2.0
+numpy>=1.26.4
+finance-datareader>=0.9.94
+pyupbit>=0.2.33
+ccxt>=4.2.15
+streamlit-autorefresh>=0.1.0 
