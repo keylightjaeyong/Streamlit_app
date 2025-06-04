@@ -15,4 +15,7 @@ libgfortran-10-dev
 libgfortran5
 zlib1g-dev
 libexpat1-dev
-pkg-config 
+pkg-config
+python3-distutils
+python3-lib2to3
+python3-pkg-resources 
