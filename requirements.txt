@@ -5,4 +5,5 @@ finance-datareader==0.9.50
 pyupbit==0.2.33
 ccxt==4.1.13
 setuptools>=69.0.3
-wheel>=0.42.0 
+wheel>=0.42.0
+python-dateutil>=2.8.2 
