@@ -2,4 +2,6 @@ python3-pip
 python3-setuptools
 python3-wheel
 python3.9-dev
-python3-distutils 
+python3-distutils
+build-essential
+python3-dev 
